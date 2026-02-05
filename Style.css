@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+:root{
+    --accentBackgrodColor:#1d1d1d;
+    --BGHoverColor: rgb(38, 38, 38);
+    --BGColor: rgb(32, 33, 33);
+}
+body{
+    background-color: #1d1d1d;
+    /* align-items: center; */
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Navbar{
+    width: 80%;
+    height: 40px;
+    background-color: var(--accentBackgrodColor);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: space-between;
+    /* position: sticky; */
+
+}
+.Logo{
+    display: flex;
+    align-items: center;
+  
+
+}
+#Logo_img{
+    width: 20px;
+    height: 20px;
+}
+.Center_nav_item{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+
+}
+.Center_nav_item:hover{
+    
+    color: #ffffffb2;
+    /* transition: 0.6s; */
+
+}
+
+.btn{
+    border: 0.2px solid #ffffff52;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#Sign_In{
+    width: 75px;
+    height: 25px;
+    color: #fff;
+    background-color: var(--accentBackgrodColor);
+}
+#Download{
+    width: 75px;
+    height: 25px;
+}
+
+/* Hero section start */
+
+#Hero_Section{
+    width: 80%;
+    height: 880px;
+    background-color: var(--accentBackgrodColor);
+    color: #fff;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+   
+
+}
+.discription{
+    width: 40%;
+    padding: 80px 0px 20px 0px;
+    
+}
+#CTA{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    /* margin: 0px 10px; */
+
+}
+#CTA:hover{
+    background-color: #ffffffe8;
+
+}
+
+/* Product_Users */
+
+#Product_Users{
+     width: 80%;
+    height: 280px;
+    background-color: var(--accentBackgrodColor);
+    color: #fff;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+
+}
+.product_text{
+    margin: 1px auto;
+}
+.branding{
+     margin: 10px auto;
+     padding: 10px;
+    height: 200px;
+    background-color: var(--accentBackgrodColor);
+    color: #fff;
+    display: flex;  
+}
+.brand_item{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: var(--BGColor);
+    justify-content: space-around;
+    margin: 2px;
+}
+.brand_item:hover{
+ 
+    background-color: var(--BGHoverColor);
+   
+}
+
+/* Main_Container */
+
+#Main_Container{
+    width: 80%;
+    height: 2500px;
+    color: #fff;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+
+}
+.container{
+    height: 800px;
+    background-color: var(--BGColor);
+    margin-top: 80px;
+    border-radius: 14px;
+    display: flex;
+    padding: 20px;
+
+}
+.container:hover{
+   background-color: var(--BGHoverColor);
+
+}
+
+.Content_text{
+    color: #1d1d1d;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 20px;
+}
+.Container_text_top{
+    color: #fff;
+
+}
+.Container_text_middle{
+    color: #bdbaba;
+}
+.Arrow_text{
+    color: orangered;
+}
+
+/* testimonials */
+
+#testimonials{
+    width: 80%;
+    height: 800px;
+    color: #fff;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+
+
+}
+.testimonials_header{
+    display: flex;
+    height: 100px;
+    font-size: 40px;
+    margin: 20px auto;
+  
+}
+.Container_testimonials{
+    height: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.testimonials_box{
+    padding: 12px;
+    font-size: 15px;
+    background-color: var(--BGColor);
+    color: #fff;
+    height: 270px;
+    border-radius: 2px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Profile{
+    padding: 3px;
+    display: flex;
+}
+.Profile_Content{
+    padding: 3px;
+}
+.TextDark{
+    color: #bdbaba;
+}
+
+/* Frontier */
+
+#Frontier{
+    width: 80%;
+    height: 700px;
+    color: #fff;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+
+}
+/* .Frontier_header{
+
+} */
+.Frontier_Container{
+    height: 650px;
+    margin-top: 10px;
+    border-radius: 14px;
+    display: flex;
+
+
+
+}
+.Frontier_Box{
+    height: 530px;
+    background-color: var(--BGColor);
+    margin: 5px;
+    padding: 10px;
+}
+.Frontier_Box img{
+   border-radius: 8px;
+   margin-top: 12px;
+}
+
+/* Changelog */
+
+#Changelog{
+    
+    width: 80%;
+    height: 280px;
+    color: #fffffff5;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+#Container_Changelog{
+    height: 150px;
+    margin: 4px;
+    display: flex;
+    
+
+}
+.Changelog_Box{
+    background-color: var(--BGColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 130px;
+    padding: 8px;
+    margin: 4px;
+    display: flex;
+    border-radius: 8px;
+}
+.Changelog_Box:hover{
+    background-color: var(--BGHoverColor);
+   
+}
+.Changelog_Rating{
+    border: 1px solid #bdbaba;
+    padding: 2px 10px;
+    height: 23px;
+    width: 45px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}
+
+/* Start TeamMeeting */
+
+#TeamMeeting{
+    width: 80%;
+    height: 700px;
+    color: #fff;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+
+}
+
+.TeamMeeting_Container{
+     height: 500px;
+    background-color: var(--BGColor);
+    border-radius: 14px;
+    display: flex;
+    padding: 10px;
+}
+.TeamMeetingTextBox{
+    display: flex;
+    flex-direction: column;
+    margin: auto 2px;
+    
+}
+.TeamMeetingTextBox p{
+   
+    font-size: 20px;
+}
+
+.TeamMeetingImage img{
+     border-radius: 10px; 
+}
+
+/* Recent_highlights */
+
+#Recent_highlights{
+    background-color: var(--BGColor);
+    height: 500px;
+    color: #fff;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+
+}
+.RecentHightlightsContainer{
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px auto;
+
+}
+
+.RecentBox{
+    background-color: #2f2f2f;
+    margin: 2px;
+    height: 110px;
+    padding: 10px 80px 0px 10px;
+    border-radius: 8px;
+    line-height: 25px;
+}
+
+.RecentBox:hover{
+    background-color: var(--BGHoverColor);
+}
+
+#Download_Container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+
+}
+#Download_Container h1{
+   margin: auto;
+   font-size: 60px;
+   color: #fff;
+
+}
+#BtnMainDownload{
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 36px;
+   
+    
+}
+
+
+#footer {
+  background: linear-gradient(180deg, #1a1a1a, #0f0f0f);
+  padding: 50px 80px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #bdbdbd;
+}
+
+.footer-column a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #9e9e9e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
