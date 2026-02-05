@@ -12,4 +12,5 @@ Clone of Cursor website
 
 ## How to Run
 live: https://sagarkumar2004.github.io/CursorClone/
+
 Open `index.html` in your browser.
