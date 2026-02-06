@@ -14,6 +14,13 @@ body{
     /* align-items: center; */
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body header{
+    background-color: var(--accentBackgrodColor);
+    position: fixed;
+     height: 40px;
+     width: 100%;
+
+}
 .Navbar{
     width: 80%;
     height: 40px;
